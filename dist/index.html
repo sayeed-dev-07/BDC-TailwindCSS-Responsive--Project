@@ -8,11 +8,11 @@
 </head>
 <body>
         <div class="hero-wrapper flex flex-col h-[auto]">
-            <header class="w-full px-[7%] py-10 flex items-center justify-between">
-            <div class="mt-[-1rem]">
+            <header class="w-full px-[2%] xl:px-[7%] py-4 md:py-10 flex items-center justify-between">
+            <div class="mt-[-1rem] cursor-pointer">
                 <img src="/assets/logos/main-logo.png" alt="">
             </div>
-            <div class="flex items-center gap-7 text-[1.2rem] font-medium">
+            <div class="xl:flex hidden items-center gap-7 text-[1.2rem] font-medium">
                 <a href="">Menu</a>
                 <a href="">Events</a>
                 <a href="">Gallery</a>
@@ -20,10 +20,10 @@
                 <a href="">Contact</a>
             </div>
             <div>
-                <button class="cursor-pointer px-[2.8rem] text-white py-[1rem] bg-[#EA6D27] rounded-tl-[1.4rem] rounded-br-[1.4rem] rounded-bl-sm rounded-tr-sm text-[1.2rem] font-[500] font-david">Book a table</button>
+                <button class="cursor-pointer px-[1.4rem] md:px-[2.8rem] text-white py-[1rem] bg-[#EA6D27] rounded-tl-[1.4rem] rounded-br-[1.4rem] rounded-bl-sm rounded-tr-sm text-[1.2rem] font-[500] font-david">Book a table</button>
             </div>
         </header>
-        <div class="hero  px-[7%] flex-1 gap-[5rem] flex justify-center items-center relative overflow-hidden">
+        <div class="hero  px-[7%] flex-1 gap-[2.5rem] lg:gap-[5rem] flex-col lg:flex-row flex justify-center items-center relative overflow-hidden">
             <div class="absolute w-[21%] top-[4%] right-[30%]">
                 <img class="w-[100%]" src="/assets/logos/back1.png" alt="">
             </div>
@@ -37,8 +37,8 @@
                 <img src="/assets/logos/logo2.png" alt="">
             </div>
 
-            <div class="w-[45%] px-[4rem] flex flex-col gap-[2rem] items-start justify-around">
-                <p class="text-[3.5rem] font-medium font-david leading-20">
+            <div class="lg:w-[45%] xl:text-start text-center w-[90%] py-[1rem] lg:py-[4rem] xl:px-[4rem] md:px-[2rem] flex flex-col gap-[3rem] mt-8 xl:mt-0 items-center xl:items-start justify-around">
+                <p class="xl:text-[3.5rem] text-[2rem] md:text-[3rem] font-medium font-david leading-10 md:leading-20">
                     We provide the best food for you
                 </p>
                 <p class="text-xl text-[#5C6574]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -47,30 +47,30 @@
                     <button class="cursor-pointer px-10 text-white py-4 bg-[#EA6D27] rounded-tl-[1.4rem] rounded-br-[1.4rem] rounded-bl-sm rounded-tr-sm text-[1.2rem] font-[500] font-david">Book a table</button>
                 </div>
                 <div class="flex items-center gap-6 p-4">
-                    <div class="w-[4rem]">
-                        <img class="w-full  p-4 border-2 cursor-pointer duration-150  rounded-full" src="/assets/logos/Facebook.png" alt="">
+                    <div>
+                        <img class="p-3 border-2 cursor-pointer duration-150  rounded-full" src="/assets/logos/Facebook.png" alt="">
                     </div>
-                    <div class="w-[4rem]">
-                        <img class="w-full p-4 border-2 cursor-pointer rounded-full" src="/assets/logos/instagram.png" alt="">
+                    <div >
+                        <img class="p-4 border-2 cursor-pointer rounded-full" src="/assets/logos/instagram.png" alt="">
                     </div>
-                    <div class="w-[4rem]">
-                        <img class="w-full p-4 cursor-pointer border-2 rounded-full" src="/assets/logos/twitter.png" alt="">
+                    <div>
+                        <img class="p-3 cursor-pointer border-2 rounded-full" src="/assets/logos/twitter.png" alt="">
                     </div>
                 </div>
             </div>
-            <div class="z-20 w-[22%] absolute bottom-[10%] right-[33%]">
+            <div class="z-20 w-[22%] hidden lg:block absolute bottom-[10%] right-[33%]">
                 <img class="w-full" src="/assets/logos/dish-2 1.png" alt="">
             </div>
-            <div class="z-10 p-[5rem]">
+            <div class="z-10 p-[1.3rem] md:p-[2rem] lg:p-[3.5rem] xl:p-[5rem]">
                 <img src="/assets/logos/dish22.png" alt="">
             </div>
         </div>
         </div>
         <div class="special z-10 relative bg-[#f3f4f4]  px-[7%] w-full py-[4rem]">
             <p class="text-center text-5xl font-david font-medium mb-[1.6rem] ">Our Special Dishes</p>
-            <p class="text-center mx-auto text-xm text-[#5C6574] w-[25%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
+            <p class="text-center mx-auto text-xl text-[#5C6574] lg:w-[25%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
             <div class="card-container  grid my-[10rem] px-[7%] grid-cols-[repeat(auto-fit,300px)] gap-[3rem] gap-y-[10rem] justify-center">
-                <div class="card h-[40vh] border-2 px-[2rem] py-[1rem] flex flex-col items-center justify-center text-center duration-200 hover:bg-white  border-black hover:border-white rounded-tl-[5rem] rounded-br-[3rem] rounded-bl-md rounded-tr-md relative">
+                <div class="card h-[40vh] border-2 px-[2rem] py-[1rem] flex flex-col items-center justify-center text-center duration-200 hover:bg-white  cursor-pointer border-black hover:border-white rounded-tl-[5rem] rounded-br-[3rem] rounded-bl-md rounded-tr-md relative">
                     <div class="div absolute z-0 w-[75%] left-[16%] top-[-35%]">
                         <div class="w-full relative">
                             <img class="w-full" src="/assets/logos/dish1.png" alt="">
@@ -78,44 +78,44 @@
                         </div>
                     </div>
                     <div>
-                        <p class="font-medium text-xl py-3">Lumpia with Suace</p>
-                        <p class="text-[#5C6574]">Lorem ipsum dolor sit , consectetur adipiscing elit, sed do eiusmod tempor</p>
+                        <p class="font-medium text-2xl md:text-3xl py-3">Lumpia with Suace</p>
+                        <p class="text-[#5C6574] text-xl">Lorem ipsum dolor sit , consectetur adipiscing elit, sed do eiusmod tempor</p>
                     </div>
                 </div>
-                <div class="card h-[40vh] border-2 px-[2rem] py-[1rem] flex flex-col items-center justify-center text-center duration-200 cursor-pointer hover:bg-white hover:border-white border-black rounded-tl-[5rem] rounded-br-[3rem] rounded-bl-md rounded-tr-md relative">
-                    <div class="div absolute w-[75%] left-[16%] top-[-35%]">
+                <div class="card h-[40vh] border-2 cursor-pointer px-[2rem] py-[1rem] flex flex-col items-center justify-center text-center duration-200 hover:bg-white  border-black hover:border-white rounded-tl-[5rem] rounded-br-[3rem] rounded-bl-md rounded-tr-md relative">
+                    <div class="div absolute z-0 w-[75%] left-[16%] top-[-35%]">
                         <div class="w-full relative">
                             <img class="w-full" src="/assets/logos/dish2.png" alt="">
                             <p class="absolute p-4 bg-black rounded-full right-[-6%] top-[33%] text-white font-medium shadow-xl">$12</p>
                         </div>
                     </div>
                     <div>
-                        <p class="font-medium text-xl py-3">Lumpia with Suace</p>
-                        <p class="text-[#5C6574]">Lorem ipsum dolor sit , consectetur adipiscing elit, sed do eiusmod tempor</p>
+                        <p class="font-medium text-2xl md:text-3xl py-3">Fish and Veggie</p>
+                        <p class="text-[#5C6574] text-xl">Lorem ipsum dolor sit , consectetur adipiscing elit, sed do eiusmod tempor</p>
                     </div>
                 </div>
-                <div class="card h-[40vh] border-2 px-[2rem] py-[1rem] flex flex-col items-center justify-center text-center duration-200 cursor-pointer hover:bg-white border-black hover:border-white rounded-tl-[5rem] rounded-br-[3rem] rounded-bl-md rounded-tr-md relative">
-                    <div class="div absolute w-[75%] left-[16%] top-[-35%]">
+                <div class="card h-[40vh] border-2 px-[2rem] py-[1rem] flex flex-col items-center justify-center text-center duration-200 hover:bg-white cursor-pointer  border-black hover:border-white rounded-tl-[5rem] rounded-br-[3rem] rounded-bl-md rounded-tr-md relative">
+                    <div class="div absolute z-0 w-[75%] left-[16%] top-[-35%]">
                         <div class="w-full relative">
                             <img class="w-full" src="/assets/logos/dish3.png" alt="">
                             <p class="absolute p-4 bg-black rounded-full right-[-6%] top-[33%] text-white font-medium shadow-xl">$12</p>
                         </div>
                     </div>
                     <div>
-                        <p class="font-medium text-xl py-3">Lumpia with Suace</p>
-                        <p class="text-[#5C6574]">Lorem ipsum dolor sit , consectetur adipiscing elit, sed do eiusmod tempor</p>
+                        <p class="font-medium text-2xl md:text-3xl py-3">Tofu Chili</p>
+                        <p class="text-[#5C6574] text-xl">Lorem ipsum dolor sit , consectetur adipiscing elit, sed do eiusmod tempor</p>
                     </div>
                 </div>
-                <div class="card h-[40vh] border-2 px-[2rem] py-[1rem] flex flex-col items-center justify-center text-center duration-200 cursor-pointer hover:bg-white border-black hover:border-white rounded-tl-[5rem] rounded-br-[3rem] rounded-bl-md rounded-tr-md relative">
-                    <div class="div absolute w-[75%] left-[16%] top-[-35%]">
+                <div class="card h-[40vh] border-2 px-[2rem] py-[1rem] flex flex-col items-center justify-center text-center duration-200 hover:bg-white cursor-pointer  border-black hover:border-white rounded-tl-[5rem] rounded-br-[3rem] rounded-bl-md rounded-tr-md relative">
+                    <div class="div absolute z-0 w-[75%] left-[16%] top-[-35%]">
                         <div class="w-full relative">
                             <img class="w-full" src="/assets/logos/dish-4.png" alt="">
                             <p class="absolute p-4 bg-black rounded-full right-[-6%] top-[33%] text-white font-medium shadow-xl">$12</p>
                         </div>
                     </div>
                     <div>
-                        <p class="font-medium text-xl py-3">Lumpia with Suace</p>
-                        <p class="text-[#5C6574]">Lorem ipsum dolor sit , consectetur adipiscing elit, sed do eiusmod tempor</p>
+                        <p class="font-medium text-2xl md:text-3xl py-3">Egg and Cocumber</p>
+                        <p class="text-[#5C6574] text-xl">Lorem ipsum dolor sit , consectetur adipiscing elit, sed do eiusmod tempor</p>
                     </div>
                 </div>
                 
@@ -123,12 +123,12 @@
                 
             </div>
 
-            <div class="flex px-[7%] items-center justify-center">
-                <div class="w-[50%]">
+            <div class="flex px-[7%] lg:flex-row flex-col items-center justify-center">
+                <div class="w-[96%] xl:w-[45%] mx-auto">
                     <img class="w-full" src="/assets/logos/newimg.png" alt="">
                 </div>
-                <div class="p-[4rem] flex-1 flex flex-col items-start gap-[2rem]">
-                    <p class="text-[3.5rem] font-medium font-david leading-20">
+                <div class="p-[1rem] mx-auto lg:p-[4rem] flex-1 flex flex-col items-center md:text-start text-center  lg:items-start gap-[1rem] lg:gap-[2rem]">
+                    <p class="text-[2rem] lg:text-[3.5rem] font-medium font-david  leading-10 lg:leading-20">
                     Welcome to Our Restaurant
                 </p>
                 <p class="text-xl text-[#5C6574]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -138,7 +138,7 @@
                 </div>
                 </div>
             </div>
-            <div class="w-[15%]   absolute top-[2%] z-[-1] left-[20%]">
+            <div class="w-[15%]  absolute top-[2%] z-[-1] left-[20%]">
                 <img class="w-full" src="/assets/logos/back2.png" alt="">
             </div>
             <div class="w-[15%]   absolute top-[60%] z-[-1] left-[50%]">
@@ -152,11 +152,11 @@
             </div>
         </div>
 
-        <div class="px-[7%] py-[6rem] gap-[2rem] flex items-center relative">
-            <div class="px-[4rem] w-[55%] flex flex-col items-start gap-[2rem]">
-                <p class="text-5xl font-medium font-david">Our Expects Chef</p>
+        <div class="px-[7%] py-[6rem] gap-[2rem] lg:flex-row flex-col flex items-center relative">
+            <div class="lg:px-[7%] text-center md:text-start px-[2%]  lg:w-[55%] flex flex-col items-center lg:items-start gap-[2rem]">
+                <p class="text-5xl font-medium font-david">Our Experts Chef</p>
                 <p class="text-[#5C6574] w-[80%] text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <div class="grid gap-x-3 grid-cols-2 gap-1 py-3">
+                <div class="grid text-start  gap-x-3 grid-cols-1 lg:grid-cols-2 gap-1 py-3">
                     <div class="flex items-center gap-4">
                         <div>
                             <img src="/assets/logos/check.png" alt="">
@@ -217,8 +217,111 @@
             <div class="flex-1 px-[2rem]">
                 <img class="w-full" src="/assets/logos/section4 chef.png" alt="">
             </div>
-            <div class="absolute w-[13%] top-[10%] left-[8%]">
+            <div class="absolute block w-[13%] top-[10%] left-[8%]">
                 <img src="/assets/logos/section4.png" alt="">
+            </div>
+        </div>
+        <div class="w-full px-[7%] py-[1.5rem] lg:py-[6rem] bg-[#f3f4f4] relative">
+            <div class="customer-section w-[100%] lg:w-[80%] mx-auto px-[7%] py-[4rem] text-center ">
+            <p class="text-5xl font-david font-medium py-5">Our Happy Customers</p>
+            <p class="text-xl text-[#5C6574] lg:px-[10rem]  pb-[6rem]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+            <div class="card w-[90%] lg:w-[60%] bg-white  mx-auto shadow-xl px-[2rem] py-[2rem] relative rounded-tl-[7rem] rounded-br-[7rem] rounded-bl-[2rem] rounded-tr-[2rem] flex flex-col items-center justify-center gap-[2rem]">
+                <div class="img hidden lg:block absolute top-[-15%]">
+                    <img src="/assets/logos/Mask group.png" alt="">
+                </div>
+                <div class="img">
+                    <img src="/assets/logos/Stars.png" alt="">
+                </div>
+                <p class="w-[70%] text-xl text-[#5C6574]">Lorem ipsum dolor sit amet consectetur. Tortor massa nisl quam sit. Vitae congue ultrices neque penatibus mi in quisque. Leo in cursus enim magnis ante. Proin iaculis platea ipsum sagittis ac eu aliquam quis. Ornare tincidunt tempus semper 
+                </p>
+                <div>
+                    <p class="text-xl font-medium">Ama Ampomah</p>
+                    <p>CEO & Founder Inc</p>
+                </div>
+            </div>
+
+            <div class="dot-container flex items-center justify-center py-[3rem] lg:py-[5rem] gap-[2rem]">
+                <div class="dot h-2 w-2 bg-[#c6c8ca] rounded-full"></div>
+                <div class="dot h-2 w-2 bg-[#c6c8ca] rounded-full"></div>
+                <div class="dot h-2 w-2 bg-[#EA6D27] rounded-full"></div>
+                <div class="dot h-2 w-2 bg-[#c6c8ca] rounded-full"></div>
+                <div class="dot h-2 w-2 bg-[#c6c8ca] rounded-full"></div>
+                <div class="dot h-2 w-2 bg-[#c6c8ca] rounded-full"></div>
+            </div>
+
+        </div>
+        <div class="w-[25%] absolute top-[10%] left-0 ">
+            <img class="w-full" src="/assets/logos/bg-5.png" alt="">
+        </div>
+        <div class="absolute hidden xl:block bottom-[-15%] left-[10%] w-[80%] mx-auto p-[4rem] bg-[url('/assets/logos/1.png')]  bg-no-repeat bg-cover bg-center text-white text-center rounded-2xl">
+            <p class="text-5xl w-[65%]  mx-auto font-david  py-[2rem]">Get Or Promo Code by Subscribing To our Newsletter</p>
+            <div class="flex items-center justify-center gap-1">
+                <input class="outline-0 bg-white px-4 py-4 text-2xl rounded-xl w-[50%] text-[#5C6574]" placeholder="Enter your email" type="text">
+                <button class="px-4 rounded-xl py-4 cursor-pointer text-2xl bg-[#EA6D27] text-white">Subscribe</button>
+            </div>
+        </div>
+        </div>
+        <div class="footer text-[#5C6574] w-full px-[10%] pt-[15%] pb-[1rem] grid grid-cols-1 md:grid-cols-2 xl:grid-cols-[2fr_1fr_1fr_1fr] gap-3">
+            <div class="flex flex-col items-start gap-5 lg:w-[80%]">
+                <div class="logo">
+                    <img src="/assets/logos/main-logo.png" alt="">
+                </div>
+                <p class="text-xl">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore .<span class="underline px-2 cursor-pointer">Learn more</span>
+                </p>
+                <p class="text-black font-medium">OPENING HOURS</p>
+                <div class="flex gap-[2rem] text-[1rem] font-[500]">
+                    <div class="flex flex-col gap-3">
+                        <p>Monday - Friday</p>
+                        <p>8:00 am to 9:00 pm</p>
+                    </div>
+                    <div class="flex flex-col gap-3">
+                        <p>Saturday</p>
+                        <p>8:00 am to 9:00 pm</p>
+                    </div>
+                    <div class="flex flex-col gap-3">
+                        <p>Sunday</p>
+                        <p>CLOSED</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col gap-[0.7rem]">
+                <p class="uppercase font-medium text-black">Navigation</p>
+                <p class="text-[1.1rem]">About us</p>
+                <p class="text-[1.1rem]">Main dishes</p>
+                <p class="text-[1.1rem]">Menu</p>
+            </div>
+            <div class="flex flex-col gap-[0.7rem]">
+                <p class="font-medium text-black">DISHES</p>
+                <p class="text-[1.1rem]">Fish & Viggies</p>
+                <p class="text-[1.1rem]">Tofu Chili</p>
+                <p class="text-[1.1rem]">Egg & Cocumber</p>
+                <p class="text-[1.1rem]">Lumpia w/Suace</p>
+            </div>
+            <div class="flex items-start flex-col">
+                <p class="xl:pl-[1.4rem] font-medium text-black">FOLLOW US</p>
+                <div class="flex ml-[-1rem] xl:pl-[1.7rem] items-start xl:items-center gap-6 p-4">
+                    <div>
+                        <img class="p-3 border-2 cursor-pointer duration-150  rounded-full" src="/assets/logos/Facebook.png" alt="">
+                    </div>
+                    <div >
+                        <img class="p-4 border-2 cursor-pointer rounded-full" src="/assets/logos/instagram.png" alt="">
+                    </div>
+                    <div>
+                        <img class="p-3 cursor-pointer border-2 rounded-full" src="/assets/logos/twitter.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="line my-[3rem] bg-[#101A24] w-[80%] h-[1px] mx-auto"></div>
+        <div class="w-[80%] mx-auto mb-[4rem] flex flex-col gap-4 lg:gap-0 lg:flex-row items-center justify-between">
+            <p class="text-xl">
+                &copy; 2022 Restaurants. All Right Reserved. Designed by Isaac
+            </p>
+            <div class="flex items-center gap-[2rem] text-[1.1rem] text-[#5C6574] font-medium">
+                <p>Terms of Service</p>
+                <p>Privacy Policy</p>
             </div>
         </div>
 </body>
